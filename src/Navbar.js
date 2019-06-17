@@ -4,10 +4,12 @@ import './Navbar.css'
 
 const Navbar = ({onNewGame}) => (
   <header>
-    <h2><a>FindMatchingColor</a></h2>
-    <nav>
-      <li><a onClick={ onNewGame }>New Game</a></li>
-    </nav>
+    <div class="nav-container">
+      <h2><a>FindMatchingColor</a></h2>
+      <nav>
+        <li><a onClick={ onNewGame }>New Game</a></li>
+      </nav>
+    </div>
   </header>
 );
 
